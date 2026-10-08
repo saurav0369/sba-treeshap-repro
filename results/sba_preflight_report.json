@@ -1,0 +1,345 @@
+{
+  "input_files": [
+    {
+      "file": "C:\\SBA_TreeSHAP\\sba_treeshap_run\\sba_7a_1991_1999_260630.csv",
+      "sha256": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+      "size_bytes": 146416885,
+      "columns": 42,
+      "selected_columns": [
+        "FirstDisbursementDate",
+        "ChargeOffDate",
+        "LoanStatus",
+        "NaicsCode",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "TermInMonths",
+        "JobsSupported",
+        "ProjectState",
+        "BusinessAge",
+        "BusinessType",
+        "ProcessingMethod",
+        "RevolverStatus",
+        "ApprovalDate",
+        "Program",
+        "AsOfDate",
+        "PaidInFullDate"
+      ],
+      "rows_read": 337033
+    },
+    {
+      "file": "C:\\SBA_TreeSHAP\\sba_treeshap_run\\sba_7a_2000_2009_260630.csv",
+      "sha256": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+      "size_bytes": 318425094,
+      "columns": 42,
+      "selected_columns": [
+        "FirstDisbursementDate",
+        "ChargeOffDate",
+        "LoanStatus",
+        "NaicsCode",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "TermInMonths",
+        "JobsSupported",
+        "ProjectState",
+        "BusinessAge",
+        "BusinessType",
+        "ProcessingMethod",
+        "RevolverStatus",
+        "ApprovalDate",
+        "Program",
+        "AsOfDate",
+        "PaidInFullDate"
+      ],
+      "rows_read": 690333
+    }
+  ],
+  "raw_rows": 1027366,
+  "issues": [],
+  "status": "pending_feature_provenance_review",
+  "non_7a_program_rows": 0,
+  "snapshot_date_values": {
+    "2026-06-30": 1027366
+  },
+  "missing_disbursement_date": 127471,
+  "bad_approval_after_disbursement": 520,
+  "CHGOFF_missing_chargeoff_date": 43,
+  "chargeoff_before_disbursement": 4,
+  "chargeoff_date_with_other_status": 0,
+  "features_missing_fraction": {
+    "GrossApproval": 0.0,
+    "SBAGuaranteedApproval": 0.0,
+    "TermInMonths": 0.0,
+    "JobsSupported": 0.0,
+    "ProjectState": 0.0,
+    "BusinessAge": 0.0001,
+    "BusinessType": 0.0043,
+    "ProcessingMethod": 0.0,
+    "RevolverStatus": 0.0
+  },
+  "usable_rows": 899848,
+  "usable_yearly_counts": {
+    "1987": {
+      "rows": 1,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "1990": {
+      "rows": 275,
+      "chargeoff_36m": 8,
+      "rate": 0.02909
+    },
+    "1991": {
+      "rows": 14584,
+      "chargeoff_36m": 483,
+      "rate": 0.03312
+    },
+    "1992": {
+      "rows": 19891,
+      "chargeoff_36m": 449,
+      "rate": 0.02257
+    },
+    "1993": {
+      "rows": 22572,
+      "chargeoff_36m": 453,
+      "rate": 0.02007
+    },
+    "1994": {
+      "rows": 31575,
+      "chargeoff_36m": 1005,
+      "rate": 0.03183
+    },
+    "1995": {
+      "rows": 47219,
+      "chargeoff_36m": 2075,
+      "rate": 0.04394
+    },
+    "1996": {
+      "rows": 38258,
+      "chargeoff_36m": 1608,
+      "rate": 0.04203
+    },
+    "1997": {
+      "rows": 41400,
+      "chargeoff_36m": 1664,
+      "rate": 0.04019
+    },
+    "1998": {
+      "rows": 35307,
+      "chargeoff_36m": 1302,
+      "rate": 0.03688
+    },
+    "1999": {
+      "rows": 39868,
+      "chargeoff_36m": 1484,
+      "rate": 0.03722
+    },
+    "2000": {
+      "rows": 39701,
+      "chargeoff_36m": 1608,
+      "rate": 0.0405
+    },
+    "2001": {
+      "rows": 37253,
+      "chargeoff_36m": 1140,
+      "rate": 0.0306
+    },
+    "2002": {
+      "rows": 45882,
+      "chargeoff_36m": 843,
+      "rate": 0.01837
+    },
+    "2003": {
+      "rows": 60498,
+      "chargeoff_36m": 2310,
+      "rate": 0.03818
+    },
+    "2004": {
+      "rows": 73497,
+      "chargeoff_36m": 3228,
+      "rate": 0.04392
+    },
+    "2005": {
+      "rows": 82081,
+      "chargeoff_36m": 4962,
+      "rate": 0.06045
+    },
+    "2006": {
+      "rows": 89970,
+      "chargeoff_36m": 8450,
+      "rate": 0.09392
+    },
+    "2007": {
+      "rows": 86703,
+      "chargeoff_36m": 13700,
+      "rate": 0.15801
+    },
+    "2008": {
+      "rows": 57138,
+      "chargeoff_36m": 6562,
+      "rate": 0.11484
+    },
+    "2009": {
+      "rows": 33077,
+      "chargeoff_36m": 1776,
+      "rate": 0.05369
+    },
+    "2010": {
+      "rows": 2210,
+      "chargeoff_36m": 76,
+      "rate": 0.03439
+    },
+    "2011": {
+      "rows": 365,
+      "chargeoff_36m": 7,
+      "rate": 0.01918
+    },
+    "2012": {
+      "rows": 310,
+      "chargeoff_36m": 21,
+      "rate": 0.06774
+    },
+    "2013": {
+      "rows": 125,
+      "chargeoff_36m": 18,
+      "rate": 0.144
+    },
+    "2014": {
+      "rows": 39,
+      "chargeoff_36m": 6,
+      "rate": 0.15385
+    },
+    "2015": {
+      "rows": 14,
+      "chargeoff_36m": 1,
+      "rate": 0.07143
+    },
+    "2016": {
+      "rows": 19,
+      "chargeoff_36m": 1,
+      "rate": 0.05263
+    },
+    "2017": {
+      "rows": 5,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2018": {
+      "rows": 3,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2019": {
+      "rows": 2,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2020": {
+      "rows": 1,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2021": {
+      "rows": 2,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2022": {
+      "rows": 1,
+      "chargeoff_36m": 1,
+      "rate": 1.0
+    },
+    "2024": {
+      "rows": 1,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    },
+    "2028": {
+      "rows": 1,
+      "chargeoff_36m": 0,
+      "rate": 0.0
+    }
+  },
+  "cohorts": {
+    "T2005": {
+      "train": {
+        "rows": 251082,
+        "chargeoffs_36m": 9047,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "history": {
+        "rows": 79569,
+        "chargeoffs_36m": 3092,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "validation": {
+        "rows": 83135,
+        "chargeoffs_36m": 1983,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "future": {
+        "rows": 176673,
+        "chargeoffs_36m": 22150,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      }
+    },
+    "T2006": {
+      "train": {
+        "rows": 290950,
+        "chargeoffs_36m": 10531,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "history": {
+        "rows": 76954,
+        "chargeoffs_36m": 2748,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "validation": {
+        "rows": 106380,
+        "chargeoffs_36m": 3153,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "future": {
+        "rows": 143841,
+        "chargeoffs_36m": 20262,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      }
+    },
+    "T2007": {
+      "train": {
+        "rows": 330651,
+        "chargeoffs_36m": 12139,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "history": {
+        "rows": 83135,
+        "chargeoffs_36m": 1983,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "validation": {
+        "rows": 133995,
+        "chargeoffs_36m": 5538,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      },
+      "future": {
+        "rows": 90215,
+        "chargeoffs_36m": 8338,
+        "maturity_violations": 0,
+        "positive_and_negative_present": true
+      }
+    }
+  },
+  "chargeoff_date_missing_rate_among_CHGOFF": 0.00024,
+  "machine_label_gate": "PASS",
+  "interpretation_gate": "PENDING: independently verify feature semantics and origination-time availability; 2026 snapshot is retrospective"
+}
